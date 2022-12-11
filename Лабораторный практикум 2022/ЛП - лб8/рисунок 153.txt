@@ -1,0 +1,59 @@
+
+.slider-section
+}
+margin: 50px 0;
+.slider-container {
+max-width: 1200px; height: 375px;
+margin: 50px auto;
+position: relative;
+}
+10
+.slider-image {
+height: 100%;
+gallery.css
+blogis
+blog.html
+12
+13
+14
+10)
+17
+width: 100%;
+background-image: url('../ing/blog/bloge.jpg');
+background-position: center center;
+background-size: cover;
+.slider-arrow {
+top: 0;
+position: absolute;
+19
+20
+bottom: 0;
+21
+cursor: pointer;
+22
+width: 30%;
+23
+24
+25
+)
+26
+27
+28
+29
+30
+31
+32
+opacity: 0;
+transition: opacity 350ms ease-in-out;
+.slider-arrow.left {
+}
+33 }
+34
+left: 0;
+background: linear-gradient(90deg, rgba(0,18,36,1) 8%, rgba(0,212,255,0) 100%);
+slider-arrow.right {
+right: 0;
+background: linear-gradient(-98deg, rgba(0,18,36,1) 0%, rgba(0,212,255,8) 100%);
+.slider-container:hover .slider-arrow {
+opacity: 1;
+

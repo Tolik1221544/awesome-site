@@ -1,0 +1,22 @@
+// Рисует записи блога согласно входной информации
+function drawCards (data) {
+$('.blog-container').html('');
+data.forEach((item, i) => {
+let card = $(cardHtml);
+card.find('.blog-cover').css('background-image', 'url("img/blog/'+ item. image
+card.find('.blog-title h2').text(item.title);
+card.find('.blog-text p').text(item.text);
+card.find('.blog-published-date').text(item.date);
+let tags ";
+// обходим все теги объекта
+item.tags.forEach((tag, i) => {
+// создаём элемент списка
+tags += '<li><a href="' + tag + '">' + tag + '</a></li>';
+});
+// добавляем все элементы в родительский <ul>
+card.find('.blog-tags ul').html(tags);
+$('.blog-container').append(card);
+});
+38
+}
+

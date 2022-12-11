@@ -1,0 +1,7 @@
+// фильтруем исходный объект по условию function filter(value, data) {
+46
+47 }
+const newData = data.filter((item) => {
+})
+drawCards (newData);
+

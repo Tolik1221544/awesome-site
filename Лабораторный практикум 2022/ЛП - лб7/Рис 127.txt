@@ -1,0 +1,16 @@
+78 .aside-search,
+background: #f7f7f7;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+border-radius: 12px;
+79
+.aside-recent {
+80
+81
+82
+83
+84
+85
+}
+padding: 45px 25px 50px;
+margin-bottom: 50px;
+

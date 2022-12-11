@@ -1,0 +1,39 @@
+52
+53 v
+54
+55
+56
+57
+58
+59 v
+60
+61
+So©8©gmggggགྲུག nཐཱཿ ཤྲུཤྩ
+62 v
+63
+64
+65 v
+66
+67
+68
+69
+70
+71
+<section class="slider-section">
+<h1 class="main-title">Haши работы</h1>
+<div class="delimiter"></div>
+<p class="main-title-description">Перечень изображений в слайдeре</p>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="img/slider/bootstrap01.jpg" class="d-block w-100" alt="..."> </div>
+<div class="carousel-item">
+<img src="img/slider/bootstrap02.jpg" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+<img src="img/slider/bootstrap03.jpg" class="d-block w-100" alt="...">
+</div>
+</div>
+</div>
+</section>
+

@@ -1,0 +1,38 @@
+$('.slider-arrow').on('click', (e) => {
+$(e.currentTarget);
+const slidesCount slides.length
+-
+1;
+if (that.hasClass('right')) { currentSlide += 1;
+if (currentSlide > slidesCount) currentslide = 0; } else {
+currentSlide -= 1;
+6
+const that =
+7
+8
+9
+if (!isBusy) {
+10
+11
+12
+13
+14
+15
+16
+17
+}
+18
+19
+20
+21
+22
+});
+}
+24
+});
+25
+});
+if (currentSlide < 0) currentslide = slidesCount;
+isBusy true;
+$('.slider-image').animate({"opacity': 0}, 350, () => {
+$('.slider-image').css('background-image', 'url(' + slides[currentSlide] + ')'); $('.slider-image').animate({'opacity': 1}, 350, () => isBusy = false);

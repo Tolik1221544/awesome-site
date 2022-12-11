@@ -1,0 +1,11 @@
+<main>
+<section id="top">
+<img class="top-image top-image-sub" src="img/01.jpg" alt="06ложка страниы"> </section>
+<section class="slider-section">
+<h1 class="main-title">Haши работы</h1>
+<div class="delimiter"></div>
+<p class="main-title-description">Перечень изображений в слайдере</p> <div class="slider-container">
+<div class="slider-arrow left"></div> <div class="slider-arrow right"></div> <div class="slider-image"></div>
+</div>
+</section>
+</main>

@@ -1,0 +1,5 @@
+73 74 75 76
+<h1 class="main-title">чeновая политика</h1>
+<div class="delimiter"></div>
+<p class="main-title-description">Пeречeнь основныX чен на планы</p> <div class="row row-cols-1 row-cols-md-3 my-5 text-center">
+

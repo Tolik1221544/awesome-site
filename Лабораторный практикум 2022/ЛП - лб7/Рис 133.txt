@@ -1,0 +1,39 @@
+109
+110
+111
+112
+113
+/* все кроме последнего с таким классом
+.recent-item:not(:last-child) {
+margin-bottom: 25px;
+border-bottom: 1px solid lightgray; padding-bottom: 15px;
+114
+}
+115
+.recent-item p {
+116
+color: #454546;
+117
+font-weight: 600;
+118
+119
+margin-bottom: 15px;
+cursor: pointer;
+120
+transition: color 250ms ease;
+121
+}
+122
+123
+124
+}
+125
+126
+127
+.recent-item p:hover {
+color: #ce416e;
+.recent-item span {
+color: #454546;
+font-size: 14px;
+128
+}

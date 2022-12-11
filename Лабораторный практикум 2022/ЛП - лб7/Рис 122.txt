@@ -1,0 +1,52 @@
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+14
+.blog-card {
+15
+background: #f7f7f7;
+16
+margin: 0 auto 50px;
+17
+18
+19
+20
+}
+21
+22
+border-radius: 12px;
+overflow: hidden;
+.blog-cover {
+background: lightgray url('../img/blog/blog02.jpg') center no-repeat;
+background-size: cover;
+height: 200px;
+.blog-body {
+padding: 27px;
+.blog-title {
+24
+25
+}
+26
+27
+28
+}
+29
+30
+margin-bottom: 25px;
+31
+}
+32
+.blog-title h2 {
+33
+font-weight: 100;
+34
+35
+36
+}
+37
+38
+39
+font-size: 30px; line-height: 1.3em;
+.blog-title {
+line-height: 1.5em;
+color: #464646;
+40
+

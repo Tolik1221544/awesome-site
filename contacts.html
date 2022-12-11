@@ -1,0 +1,333 @@
+<!-- Объявление формата документа-->
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+    <!-- Техническая информация о документе-->
+    <head>
+    <!-- Определяем кодировку символов документа-->  
+        <meta charset="UTF-8">
+        <!-- Задаем заголовок документа-->
+        <title>Мой сайт</title>
+        <!-- Подключаем внешнюю таблицу стилей-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap&subset=cyrillic"rel="stylesheet">
+        <!-- Подключаем внешние библиотеки-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <!-- Подключаем сценарии-->
+        <script src="js/script.js"></script>
+        <script src = "js/popup.js"></script>
+        <script src = "js/counter.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <!-- Основная часть документа-->
+    <body>
+        <!-- Заголовок страницы-->
+        <header>
+            <!-- меню страницы-->
+            <nav id="myTopnav">
+                <img src="img/fort-icon.png" alt="Логотип сайта">
+
+                <ul>
+                  <li><a href="index.html" class="menu-element" data-link="top" title="На Главную">Главная</a></li>
+                  <li><a href="#services" class="menu-element" data-link="services" title="Общая информация">Общее</a></li>
+                  <li><a href="#portfolio"  class="menu-element" data-link="portfolio" title="Фотогалерея">Галерея </a></li>
+                  <li><a href="contacts.html" class="menu-element" title="Контактная информация">Контакты </a></li>
+                </ul>
+                <div id="hamburger" class="icon ">&#9776;</div>
+            </nav>
+        </header>
+        <!-- Основной контент-->
+        <main>
+            <section id="top">
+                <img class="top-image top-image-sub" src="img/01.jpg" alt="Обложка страницы">
+            </section>
+            <section class="about-us"> 
+              <div class="about-container"> 
+                <div class="about-row"> 
+                  <div class="about-column"> 
+                    <div class="content-left">
+              <img src="img/portfolio/img09.jpg" alt="О Нас"> 
+            </div> 
+          </div> 
+          <div class="about-column"> 
+            <div class="content-right">
+              <h2>Наша компания</h2> 
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru laboris nisi aliquip ex ea commodo consequat.</p> 
+              <h3>Контакты для связи</h3> 
+              <div class="about-contact">
+              <span>Адрес:</span>
+              <span>г. Тирасполь, ул. Свердлова, д. 10</span> 
+            </div> 
+            <div class="about-contact">
+              <span>Телефон:</span>
+              <span>+ (373) 55-200-624</span> 
+            </div> 
+            <div class="about-contact">
+              <span>E-mail:</span>
+              <span>hello@awesome.ws</span> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+</section>
+<section class="our-achievement">
+  <div class="achievement-container"> 
+    <div class="achievement-row">
+  <div class="achievement-column">
+  <div class="single-achievement">
+  <h3 class="counter">
+  <span id="secondo1" class="countup" data-end="1250">1250 </span>+
+</h3>
+  <p>Видов товаров</p>
+  </div>
+  </div>
+  <div class="achievement-column">
+  <div class="single-achievement">
+  <h3 class="counter">
+  <span id="secondo2" class="countup" data-end="350">350 </span>+ 
+</h3>
+  <p>Заказов ежемесячно</p>
+  </div>
+  </div>
+  <div class="achievement-column">
+  <div class="single-achievement">
+  <h3 class="counter">
+  <span id="secondo3" class="countup" data-end="2500">2500 </span>+ 
+</h3>
+  <p>Довольных клиентов</p>
+  </div>
+  </div>
+  <div class="achievement-column">
+  <div class="single-achievement">
+  <h3 class="counter">
+  <span id="secondo3" class="countup" data-end="250">250 </span>+ 
+</h3>
+  <p>Новых позиций</p>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<section id="map">
+  <h1 class="main-title">Как нас найти</h1>
+<div class="delimiter"></div>
+<p class="main-title-description">Поиск по карте</p>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1116758032ce62b3d9832d9dd5ff183a15211831a7fc5cd091036d5f11f6a98d&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+</section>
+<section class="services" id="services">
+  <h1>Наши возможности</h1>
+  <div class="delimeter"></div> 
+  <p> Lorem ipsum dolor sit amet</p>
+   <!-- внешний блок-->
+  <div class="services-container">
+    <!-- обёртка-->
+    <div class="container-row">
+      <!-- "элемент"-->
+     <div class="row-item">
+         <img class="item-img" src="img/icon-1.png" alt="">
+         <h2> Lorem ipsum dolor</h2> 
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     </div> 
+     <div class="row-item">
+     <img class="item-img" src="img/icon-2.png" alt="">
+   <h2> Lorem ipsum dolor</h2> 
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ </div>
+   <div class="row-item">
+     <img class="item-img" src="img/icon-3.png" alt="">
+   <h2> Lorem ipsum dolor</h2> 
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ </div>
+   <div class="row-item">
+     <img class="item-img" src="img/icon-4.png" alt="">
+   <h2> Lorem ipsum dolor</h2> 
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ </div>
+   <div class="row-item">
+     <img class="item-img" src="img/icon-5.png" alt="">
+   <h2> Lorem ipsum dolor</h2> 
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ </div>
+   <div class="row-item">
+     <img class="item-img" src="img/icon-6.png" alt="">
+   <h2> Lorem ipsum dolor</h2> 
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ </div>
+ </div>
+ </div>
+  </div> 
+    </div>
+  </section>
+  <section class="overlay black-back">
+    <h2 class="main-title">Подробности</h2>
+    <div class="delimiter"></div>
+    <p class="main-title-description">Lorem ipsum dolor sit amet</p>
+    <button class="common-button" type="button" name="button">Узнать</button>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <h2 class="main-title">Наши работы</h1>
+    <div class="delimiter"></div>
+    <p class="main-title-description">Lorem ipsum dolor sit amet</p>
+
+  <div class="portfolio-container">
+  <div class="portfolio-item" style="background-image: url('img/portfolio/img09.jpg')" data-src="img/portfolio/img09.jpg">
+  <div class="description-container">
+   <p class="portfolio-title">Lorum dolorum</p> 
+    <p class="portfolio-description">
+      Duis aute irure color in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+  </div>
+</div>
+    <div class="portfolio-item" style="background-image: url('img/portfolio/img08.jpg')" data-src="img/portfolio/img08.jpg">
+    <div class="description-container">
+      <p class="portfolio-title">Lorum dolorum</p> 
+      <p class="portfolio-description">
+        Duis aute irure color in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+    </div>
+  </div>
+      <div class="portfolio-item" style="background-image: url('img/portfolio/img07.jpg')"data-src="img/portfolio/img07.jpg">
+        <div class="description-container">
+          <p class="portfolio-title">Lorum dolorum</p> 
+          <p class="portfolio-description">
+            Duis aute irure color in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+      </div>
+      <div class="portfolio-item" style="background-image: url('img/portfolio/img01.jpg')"data-src="img/portfolio/img01.jpg">
+        <div class="description-container">
+          <p class="portfolio-title">Lorum dolorum</p> 
+          <p class="portfolio-description">
+            Duis aute irure color in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+      </div>
+      <div class="portfolio-item" style="background-image: url('img/portfolio/img03.jpg')"data-src="img/portfolio/img03.jpg">
+        <div class="description-container">
+          <p class="portfolio-title">Lorum dolorum</p> 
+          <p class="portfolio-description">
+            Duis aute irure color in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+      </div>
+      <div class="portfolio-item" style="background-image: url('img/portfolio/img10.jpg')"data-src="img/portfolio/img10.jpg"></div>>
+        <div class="description-container">
+          <p class="portfolio-title">Lorum dolorum</p> 
+          <p class="portfolio-description">
+            Duis aute irure color in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+  </div>
+</div>
+</div>
+<h1 class="main-title">Отзывы</h1>
+<div class="delimiter"></div>
+<p class="main-title-description">Наши клиенты о нас</p>
+<div class="testimonials-container">
+  <div class="testimonials-inner">
+    <div class="testimonials-card">
+      <div class="card-row">
+        <img class="card-img" src="img/testimonials/01.jpg" alt="">
+        <div class="card-head">
+          <h4>Angelina Glory</h4>
+          <span>25/02/2021</span>
+        </div>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="testimonials-card">
+      <div class="card-row">
+        <img class="card-img" src="img/testimonials/01.jpg" alt="">
+        <div class="card-head">
+          <h4>Angelina Glory</h4>
+          <span>25/02/2021</span>
+        </div>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="testimonials-card">
+      <div class="card-row">
+        <img class="card-img" src="img/testimonials/01.jpg" alt="">
+        <div class="card-head">
+          <h4>Angelina Glory</h4>
+          <span>25/02/2021</span>
+        </div>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="testimonials-card">
+      <div class="card-row">
+        <img class="card-img" src="img/testimonials/01.jpg" alt="">
+        <div class="card-head">
+          <h4>Angelina Glory</h4>
+          <span>25/02/2021</span>
+        </div>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="testimonials-card">
+      <div class="card-row">
+        <img class="card-img" src="img/testimonials/01.jpg" alt="">
+        <div class="card-head">
+          <h4>Angelina Glory</h4>
+          <span>25/02/2021</span>
+        </div>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="testimonials-card">
+      <div class="card-row">
+        <img class="card-img" src="img/testimonials/01.jpg" alt="">
+        <div class="card-head">
+          <h4>Angelina Glory</h4>
+          <span>25/02/2021</span>
+        </div>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+  <div class="testimonials-controls">
+    <div class="control-item active"></div>
+    <div class="control-item"></div>
+    <div class="control-item"></div>
+  </div>
+</div>
+        </main>
+        <!-- подвал страницы-->
+        <footer>
+          <nav>
+            <ul>
+              <li><a href="index.html" data-link="top" title="На Главную">Главная</a></li>
+              <li><a href="#portfolio"  class="menu-element" data-link="portfolio" title="Фотогалерея">Галерея </a></li>
+              <li><a href="#contact" class="menu-element" title="Контактная информация">Контакты </a></li>
+              <li><a href="services.html" class="menu-element" title="Услуги">Услуги</a></li>
+              <li><a href="blog.html" class="menu-element" title="Блог сайта">Блог</a></li>
+            </ul>
+          </nav>
+          <div class="brand">
+            <img src="img/fort-icon.png" alt="Логотип сайта">
+            <span>AWESOME</span>
+          </div>
+        <div class="social">
+        <a href="#" title="Facebook" target="_blank">
+          <img class="social-img" src="img/social/001-facebook.png" alt="Facebook">
+        </a>
+        <a href="#" title="LinkedIn" target="_blank">
+          <img class="social-img" src="img/social/004-linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="#" title="Instagram" target="_blank">
+          <img class="social-img" src="img/social/005-instagram.png" alt="Instagram">
+        </a>
+        <a href="#" title="Twitter" target="_blank">
+          <img class="social-img" src="img/social/007-twitter.png" alt="Twitter">
+        </a>
+        <a href="#" title="Tumblr" target="_blank">
+          <img class="social-img" src="img/social/010-tumblr.png" alt="Tumblr">
+        </a>
+        </div>
+        <div class="copyright">© Very First Page 2022</div>
+      </footer>
+    </body>
+    </html>

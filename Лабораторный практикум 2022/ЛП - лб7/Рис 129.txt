@@ -1,0 +1,5 @@
+<div class="aside-search">
+<h3 class="search-title">Поиск в блоге</h3>
+<div class="search-delimiter"></div>
+<input class="search-text" type="search" name="search-text" value="" placeholder="Bвeдите слово' <input class="search-do" type="submit" name="search-do" value="Иckaть"> </div>
+"

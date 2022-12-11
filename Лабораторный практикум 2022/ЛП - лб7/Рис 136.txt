@@ -1,0 +1,8 @@
+// ожидаем загрузки документа $(document).ready(() => {
+const data = JSON.parse(jsonData); drawCards (data);
+5 });
+6
+function drawCards (data) {
+7
+8 |
+9 }

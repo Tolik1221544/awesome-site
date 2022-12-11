@@ -1,0 +1,11 @@
+$(document).ready(() => {
+2
+let currentslide = 0;
+3
+let isBusy = false;
+5
+$('.slider-arrow').on('click', (e) => { const that = $(e.currentTarget);|
+7
+});
+8
+9 });

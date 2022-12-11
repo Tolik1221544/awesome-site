@@ -1,0 +1,12 @@
+<div class="aside-recent">
+<h3 class="search-title">Пoпулярные статьи</h3> <div class="search-delimiter"></div>
+<div class="recent-item">
+<p>Ut enim ad minim veniam, quis nostrud</p> <span>15/10/2021</span>
+</div>
+<div class="recent-item">
+<p>Excepteur sint occaecat cupidatat</p> <span>08/09/2021</span>
+</div>
+<div class="recent-item">
+<p>Duis aute irure dolor in reprehenderit</p> <span>29/08/2021</span>
+</div>
+</div>

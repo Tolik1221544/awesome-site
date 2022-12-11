@@ -1,0 +1,27 @@
+34
+$(document).ready(() => {
+const data = JSON.parse(jsonData); drawCards (data);
+$('.search-do').on('click', () => {
+const search = $('.search-text').val().toLowerCase(); filter(search, data);
+});
+initCardsHandler();
+10
+11
+12
+});
+13
+14
+15
+16
+17
+// инициатор кликов по тегам
+initCardsHandler () {
+$('.blog-tags a').off().on('click', (e) => {
+e.preventDefault();
+const search = $(e.currentTarget).text().toLowerCase(); filter(search, data);
+});
+18
+19
+20
+21
+

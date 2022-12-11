@@ -1,0 +1,14 @@
+// Рисует записи блога согласно входной информации
+function drawCards (data) {
+$('.blog-container').html('');
+data.forEach((item, i) => {
+let card = $(cardHtml);
+card.find('.blog-cover').css('background-image', 'url("img/blog/'+item.image + '"')')
+card.find('.blog-title h2').text(item.title); card.find('.blog-text p').text(item.text);
+card.find('.blog-published-date').text(item.date);
+$('.blog-container').append(card);
+29
+});
+30
+}
+

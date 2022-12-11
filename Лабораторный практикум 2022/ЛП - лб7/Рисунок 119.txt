@@ -1,0 +1,50 @@
+<body>
+<header>
+<nav id="myTopnav">
+<img src="img/fort-icon.png" alt="Лoroтип caйтa">
+<ul>=
+<div id="hamburger" class="icon">
+&#9776;
+</div>
+</nav>
+34
+35
+36
+37
+38
+39 -
+40
+41
+2 2 2 2 2 2 3 3 PER 16222
+42 >
+72
+73
+74
+75
+76
+77
+78
+79
+80 >
+99 >
+103 >
+</header>
+<main>
+<section id="top">
+<img class="top-image top-image-sub" src="img/02.jpg" alt="06ложка стран </section>
+<article class="blog-article">
+<div class="blog-container">
+<!-- Запись в блоге -->
+<section class="blog-card">= </div>
+<aside class="blog-aside">
+</aside>
+</article>
+</main>
+<footer>
+<nav>☐
+<div class="brand">=
+<div class="social">=
+<div class="copyright">© Very First Page 2021</div>
+</footer>
+</body>
+

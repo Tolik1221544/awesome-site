@@ -1,0 +1,20 @@
+9
+10
+if (!isBusy) {
+11
+12
+13
+14
+15
+16
+17
+18
+}
+19
+});
+if (that.hasClass('right')) { currentSlide += 1;
+if (currentSlide › slidesCount) currentSlide = 0; } else {
+}
+currentSlide -= 1;
+if (currentSlide < 0) currentSlide = slidesCount;
+

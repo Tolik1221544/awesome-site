@@ -1,0 +1,41 @@
+86
+.search-title {
+87
+88
+89
+}
+90
+91
+92
+93
+94
+95
+}
+96
+97
+98
+99
+100
+}
+101
+font-size: 25px; color: #454546;
+.search-delimiter {
+width: 100px;
+margin: 25px @ 37px;
+height: 1px;
+background: rgba(206, 65, 110, 0.74);
+.search-text, .search-do { border: 1px solid #ce416e; padding: 15px; border-radius: 6px;
+.search-text {
+102
+width: 170px;
+103
+}
+104
+105
+.search-do {
+background: #ce416e;
+106
+color: white;
+107
+cursor: pointer;
+108

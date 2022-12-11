@@ -1,0 +1,14 @@
+18 // Рисует записи блога согласно входной информации
+19
+20
+21
+22
+23
+function drawCards (data) {
+$('.blog-container').html('');
+data.forEach((item, i) => { let card = $(cardHtml);
+24
+$('.blog-container').append(card);
+25
+});
+26 }
